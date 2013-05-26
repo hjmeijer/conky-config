@@ -1,0 +1,28 @@
+update_interval 1
+total_run_times 0
+net_avg_samples 1
+cpu_avg_samples 1
+imlib_cache_size 0
+double_buffer yes
+no_buffers yes
+format_human_readable
+use_xft yes
+xftfont Existence:size=8
+override_utf8_locale yes
+text_buffer_size 2048
+own_window_class Conky
+own_window yes
+own_window_type desktop
+own_window_transparent yes
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+alignment top_right
+gap_x 15
+gap_y 15
+minimum_size 350 200
+draw_shades no
+default_color ffffff
+
+TEXT
+${voffset 0}${font Existence:pixelsize=40}${alignr 10}${time %A %d %B}
+${voffset 20}${font Quicksand Light:pixelsize=140}${alignr -5}${time %H|%M}
+${voffset -70}${font Quicksand Light:pixelsize=30}${alignr 10}${time %S}
